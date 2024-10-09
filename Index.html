@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramox Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* پس‌زمینه سیاه */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .glass-panel {
+            position: relative;
+            background: #FFFFFF; /* رنگ سفید برای کادر */
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px; /* عرض کادر */
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .glass-panel h2 {
+            color: #000; /* رنگ متن */
+            margin: 0;
+        }
+        .footer {
+            color: #000; /* رنگ فوتر */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" onclick="window.location.href='https://ramox.online/Buy'">
+    <div class="glass-panel">
+        <h2>خرید سایت</h2>
+    </div>
+</div>
+
+<div class="footer">Created by RAMOX</div>
+
+</body>
+</html>
